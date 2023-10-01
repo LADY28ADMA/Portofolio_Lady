@@ -1,0 +1,348 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #0000ff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+    width: 100%;
+  }
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul a li {
+    margin-left: 20px;
+    font-family: myriad pro regular;
+    color: #505050;
+    font-weight: 700;
+    justify-content: flex-end;
+  }
+
+  .up {
+    width: 3000px;
+    position: static;
+  }
+
+  .up h3 {
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+  }
+
+  .up h5{
+    color: white;
+  }
+  
+.bar {
+    color: white;
+    font-size: 15px;
+    margin: 15px;
+  }
+  
+  .bar:link {
+    color: red;
+  }
+  
+  /* visited link */
+  .bar:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  .bar:hover {
+    color: red;
+  }
+
+  section{
+    width: 80%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  section p{
+    text-align: justify
+  }
+
+  .gambar{
+    margin-left: 30px;
+  }
+
+  .gambar img{
+    height: 300px;
+  }
+
+
+.skill {
+    width: 80%;
+    height: 100%;
+    background-color: #f6f5f5;
+    padding: 2% 10% 0px 10%;
+    margin-top: 50px;
+    padding-right: 50px;
+  }
+  
+  .skill-text p:nth-child(1) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1d1c1c;
+    font-size: 30px;
+    line-height: 0px;
+  
+  }
+  
+  .skill-text p:nth-child(2) {
+    width: 100%;
+    font-family: calibri;
+    color: #7e7d7d;
+  }
+  
+  .skill-text {
+    margin: 50px 0px;
+  }
+  
+  .logo_code {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    transform: translateX(-70%);
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    width: 50%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+      font-size: 11px;
+    }
+  }
+  
+.kontak{
+  padding-top: 10px;
+}
+
+  footer p {
+    font-family: calibri;
+  }
+  
+  footer p:nth-child(1) {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 10px;
+    position: relative;
+  }
+  
+  footer p:nth-child(2) {
+    font-size: 16px;
+    color: #7e7d7d;
+    width: 600px;
+    text-align: center;
+    position: relative;
+  }
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: #0000ff;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.banner {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.networks {
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.networks-outer {
+	display: table;
+	position: relative;
+	width: 5em;
+	height: 5em;
+	border: 2px solid white;
+	border-radius: 4em;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.networks-outer a {
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+}
+
+.fa:before {
+	font-size: 40px;
+}
+
+.networks:hover .networks-outer {
+	background: rgba(255,255,255,.5);
+	cursor: pointer;
+}
+
+/**** Social-Network-Specific ****/
+
+.networks:hover .fa-instagram {
+	color: #FE7BE5;
+}
+
+#instagram.networks-outer:hover {
+	border-color: #FE7BE5;
+}
+
+.networks:hover .fa-whatsapp {
+	color: #05cc47;
+}
+
+#whatsapp.networks-outer:hover {
+	border-color: #05cc47;
+}
+
+
+
+@keyframes multicolor {
+	0% {
+		color: #4885ed;
+	}
+	33% {
+		color: #3cba54;
+	}
+	66% {
+		color: #f4c20d;
+	}
+	100% {
+		color: #db3236;
+	}
+}
+
+@keyframes multicolorBorder {
+	0% {
+		border-color: #4885ed;
+	}
+	33% {
+		border-color: #3cba54;
+	}
+	66% {
+		border-color: #f4c20d;
+	}
+	100% {
+		border-color: #db3236;
+	}
+}
+
